@@ -1,0 +1,12 @@
+USE CASE 10: Vendor Advance Reconciliation
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's accounts manager. I need to reconcile the ledger account for vendor ABC Supplies Pvt Ltd. Our ledger shows an advance balance of Rs 28 lakhs as at 30 September 2025. The vendor's statement shows Rs 19 lakhs outstanding. Create: (1) a reconciliation statement showing the Rs 9 lakh difference, (2) analysis table with the most likely causes for such differences and resolution steps, (3) recommended journal entries to resolve each item, (4) next steps. Use Indian accounting context (TDS, GRN accruals, credit notes). Table format for all sections.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

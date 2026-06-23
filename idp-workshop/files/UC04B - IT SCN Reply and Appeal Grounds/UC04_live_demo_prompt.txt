@@ -1,0 +1,167 @@
+LIVE DEMO PROMPT — USE CASE 04
+Drafting Reply to Income Tax Show Cause Notice u/s 144
+======================================================
+
+INSTRUCTIONS FOR FACILITATOR:
+1. Open Claude (claude.ai) on the projector screen.
+2. The SCN is a real-world Section 144 best judgment assessment scenario.
+   Assessee is an AOP running a correspondence education institute.
+   Books rejected u/s 145(3). Net profit estimated at 30% of turnover.
+   Addition: Rs. 3,04,05,800/-. Penalty u/s 270A also initiated.
+3. Paste the full prompt below into Claude. It contains the SCN facts inline.
+4. Run Stage 1 first (SCN reply). Then Stage 2 (appeal grounds) if time permits.
+5. This use case works best when you show the SCN document on one half of the
+   screen and the Claude reply on the other.
+
+KEY TEACHING POINTS FOR AUDIENCE:
+- The reply addresses each ground of the department separately.
+- Claude cites relevant case laws and sections without being asked.
+- The tone is measured and professional — not aggressive, not submissive.
+- The reply covers the procedural defence (notices not received) AND the
+  substantive defence (30% NP rate unjustified for education sector).
+- Total drafting time: under 3 minutes vs. 2-3 hours manually.
+
+======================================================
+STAGE 1 PROMPT — DRAFT REPLY TO SCN
+======================================================
+
+You are a senior Chartered Accountant and tax consultant representing
+M/s Pinnacle Vocational & Skills Training Institute, PAN: AAGTP7412K,
+an AOP engaged in correspondence education, before the Income Tax
+Department in assessment proceedings for A.Y. 2024-25.
+
+The Assessing Officer has issued a Show Cause Notice u/s 144 of the
+Income Tax Act, 1961 proposing the following:
+
+1. Rejection of books of accounts u/s 145(3) on grounds of non-submission
+   of details and non-compliance with notices u/s 142(1).
+
+2. Best judgment assessment u/s 144 r.w.s. 143(3) r.w.s. 144B estimating
+   net profit at 30% of total turnover of Rs. 10,24,00,000/-, resulting in
+   assessed income of Rs. 3,07,20,000/-.
+
+3. Addition of Rs. 3,04,05,800/- (assessed income of Rs. 3,07,20,000
+   minus returned income of Rs. 3,14,200).
+
+4. Initiation of penalty proceedings u/s 270A(9) r.w.s. 270A(8) for
+   alleged mis-reporting of income.
+
+5. Initiation of penalty proceedings u/s 272A(1)(d) for non-compliance
+   with notices u/s 142(1).
+
+BACKGROUND FACTS:
+- The assessee is an AOP running a correspondence education and vocational
+  skills training institute in Ghaziabad, Uttar Pradesh.
+- ITR for AY 2024-25 was filed on 31.07.2024 declaring income of Rs.3,14,200/-.
+- Turnover as per ITR: Rs.10,24,00,000/-.
+- The assessee claims it was unaware of notices u/s 143(2) and 142(1) as
+  they were not received. The assessee only came to know of the proceedings
+  upon receiving summons u/s 133(6) dated 20.11.2025 through post.
+- Upon becoming aware, the assessee immediately responded on 29.11.2025
+  seeking time to appoint a representative and compile records.
+- The assessee is not liable for tax audit u/s 44AB as per the ITR filed.
+- The nature of business is education/vocational training — a service sector
+  activity where a 30% net profit estimate is commercially unreasonable.
+- The assessee maintains that all receipts are through banking channels and
+  is prepared to furnish all details if given reasonable time.
+
+YOUR TASK:
+Draft a comprehensive reply to the Show Cause Notice addressing all five
+proposed variations above. The reply should:
+
+1. Open with a respectful but firm statement of facts regarding non-receipt
+   of earlier notices and procedural lapse.
+
+2. Address the rejection of books u/s 145(3):
+   - Argue that books cannot be rejected merely because they were not
+     submitted — non-submission due to non-receipt of notices is different
+     from books being incorrect or incomplete.
+   - Cite relevant case laws supporting this position.
+   - Offer to immediately furnish all books and records.
+
+3. Challenge the 30% net profit estimation:
+   - Argue that 30% NP is commercially unreasonable for a correspondence
+     education/vocational training AOP.
+   - Cite the nature of the sector — high direct costs (faculty fees,
+     content development, student support), thin margins typical of the
+     education sector.
+   - Cite case laws where courts have held that NP estimation must be based
+     on comparable cases and industry standards, not arbitrarily applied.
+   - Request that if estimation is to be done, it be done at a reasonable
+     rate consistent with industry norms.
+
+4. Contest the addition of Rs. 3,04,05,800/-:
+   - State that the addition is based solely on non-submission, not on
+     any specific finding of income escapement.
+   - Argue that the addition is unsustainable in law.
+
+5. Address the penalty u/s 270A:
+   - Argue that penalty for mis-reporting cannot be levied where there
+     is no finding of deliberate concealment.
+   - Non-filing of supporting documents is not mis-reporting of income.
+
+6. Address the penalty u/s 272A(1)(d):
+   - Note that non-compliance was due to non-receipt of notices.
+   - The assessee responded immediately upon becoming aware.
+
+7. Close with a prayer requesting:
+   - Opportunity to submit all books, records, and supporting documents.
+   - Adjournment of assessment proceedings to allow compliance.
+   - Dropping of all proposed additions and penalty proceedings.
+
+Use formal legal language appropriate for an Income Tax reply. Cite
+at least 4 relevant case laws or judicial precedents. Reference the
+applicable sections of the Income Tax Act 1961 throughout.
+
+======================================================
+STAGE 2 FOLLOW-UP PROMPT — GROUNDS OF APPEAL FOR CIT(A)
+(Run this if the department does not accept the reply and passes the order)
+======================================================
+
+Assume the Assessing Officer has passed the assessment order u/s 144
+r.w.s. 143(3) r.w.s. 144B for AY 2024-25 confirming:
+- Rejection of books u/s 145(3)
+- Addition of Rs. 3,04,05,800/- on account of best judgment assessment
+  at 30% NP on turnover
+- Penalty proceedings u/s 270A initiated
+
+Draft the Grounds of Appeal to be filed before the Commissioner of
+Income Tax (Appeals) in Form 35. The grounds should:
+
+1. Be numbered separately for each issue.
+2. Challenge the rejection of books u/s 145(3).
+3. Challenge the 30% NP estimation as excessive and arbitrary.
+4. Challenge the quantum of addition.
+5. Challenge initiation of penalty u/s 270A.
+6. Include a general ground reserving the right to add/modify grounds.
+7. Cite at least 3 ITAT / High Court / Supreme Court precedents.
+8. Be drafted in the standard Form 35 language.
+
+======================================================
+WHAT TO POINT OUT TO THE AUDIENCE:
+======================================================
+
+1. The reply is structured ground-by-ground — not a narrative letter.
+   This is how a good tax reply is organised.
+
+2. Claude cites Section 145(3), Section 144, Section 270A with correct
+   context — without being prompted to cite sections.
+
+3. The argument about 30% NP being unreasonable for the education sector
+   is sector-specific — Claude applies commercial logic, not just legal
+   citation.
+
+4. Case law citations appear automatically — the CA must verify them
+   (this is the critical caution point for the audience).
+
+5. The prayer clause is complete and covers all reliefs needed.
+
+6. Stage 2 (appeal grounds) flows naturally from Stage 1 — Claude
+   remembers the facts from the earlier conversation.
+
+CAUTION TO MENTION:
+Case law citations generated by AI must be verified before filing.
+AI sometimes generates plausible-sounding but incorrect citations —
+wrong year, wrong bench, or citations that do not exist. The CA must
+verify every cited case on a legal database (SCC Online, ITR, Taxmann)
+before submitting the reply or appeal. This is non-negotiable.

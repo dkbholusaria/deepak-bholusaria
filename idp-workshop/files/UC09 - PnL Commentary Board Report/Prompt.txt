@@ -1,0 +1,12 @@
+USE CASE 09: PnL Commentary Board Report
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's CFO analyst. Write Q2 FY2025-26 P&L commentary for the board pack. Financial data: Revenue Rs 8.42 Cr (vs Rs 7.72 Cr Q2 FY25, +9.1%); COGS Rs 5.14 Cr (+13.7%); Gross Margin 39% (vs 41.5%); EBITDA Rs 1.62 Cr (-8%); PAT Rs 94 lakhs (-13%). Key drivers: raw material inflation (polymer+steel up 14-18%), partial price pass-through, 2 new senior hires. Include: a summary metrics table, commentary sections on Revenue, Gross Margin, EBITDA/PAT, and 3 concrete management actions. Max 400 words excluding the table. Professional board-ready tone.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

@@ -1,0 +1,12 @@
+USE CASE 16: Compliance Calendar FY26
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's compliance manager. Create a comprehensive compliance calendar for FY2025-26 (April 2025 – March 2026). IDP Limited is an Indian private limited company with manufacturing operations. Cover: TDS deposits and returns (quarterly), GST (GSTR-1, GSTR-3B monthly; GSTR-9 annual), advance tax (quarterly — Q1 15 Jun, Q2 15 Sep, Q3 15 Dec, Q4 15 Mar), ROC filings (AGM, annual return, DPT-3, DIR-3 KYC), PF/ESI payments, and Form 16 issuance. Format as month-by-month tables with: Compliance | Due Date | Owner | Regulatory Authority. Also add a "Standing Monthly Compliance" table for items due every month.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

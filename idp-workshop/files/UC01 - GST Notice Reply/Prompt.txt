@@ -1,0 +1,12 @@
+USE CASE 01: GST Notice Reply
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's senior tax manager. We are an Indian company (GSTIN: 07AACCI1234P1ZX) and have received a GST scrutiny notice for FY2022-23. The assessing officer has cited an ITC mismatch of Rs 4.2 lakhs between GSTR-2A and our books of accounts. The mismatch is due to delayed filing by some vendors — we have actual invoices and payments. Draft a formal reply explaining the reason for the difference, requesting 30-day extension to furnish reconciliation. Include: reference number, proper addressing, explanation of cause, list of documents we will provide, and a polite close. Under 500 words. Formal legal tone.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

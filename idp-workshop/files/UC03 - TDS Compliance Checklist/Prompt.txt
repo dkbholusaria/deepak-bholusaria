@@ -1,0 +1,12 @@
+USE CASE 03: TDS Compliance Checklist
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's tax compliance officer. Create a quarter-end TDS compliance checklist for Q3 FY2025-26 (October–December 2025). IDP Limited makes the following payments attracting TDS: salaries (Sec 192), contractor payments (Sec 194C), professional fees (Sec 194J), rent (Sec 194I), and interest (Sec 194A). Filing deadline for Q3 return is 31 January 2026. Create a checklist grouped into three sections: Pre-Quarter-End, During Quarter-End, and Post-Quarter-End. Include: task description, responsible team, and status column. Also add a "Common Errors to Avoid" section. Output as tables by section.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

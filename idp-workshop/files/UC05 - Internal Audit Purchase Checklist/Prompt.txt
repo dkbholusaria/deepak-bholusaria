@@ -1,0 +1,12 @@
+USE CASE 05: Internal Audit Purchase Checklist
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's internal audit manager. Create a risk-based internal audit checklist for the purchase function (procure-to-pay process). IDP is a manufacturing company with approximately 250 active vendors. The purchase function includes: vendor empanelment, PO creation, GRN, invoice processing, and payments. Approval matrix: purchases up to Rs 50k — department head; Rs 50k-5 lakhs — Finance Manager; above Rs 5 lakhs — CFO. Output as a table: # | Risk Area | Control to Test | Audit Procedure | Risk Level (High/Medium/Low). Include at least 12 risks. Add a sampling approach note and list of documents to be requested from management.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

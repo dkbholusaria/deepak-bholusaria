@@ -1,0 +1,12 @@
+USE CASE 04: Income Tax Provision Note
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's finance controller. Prepare a Q2 FY2025-26 income tax provision note for our quarterly management accounts. Financial data: PBT Rs 58.4 lakhs, disallowable expenses (entertainment Rs 82k, penalty Rs 35k, CSR Rs 1.2 lakhs), depreciation as per Companies Act Rs 4.6 lakhs, depreciation as per Income Tax Act Rs 7.8 lakhs. Tax rate 25.17% (including surcharge and cess). Advance tax paid till date Rs 10.5 lakhs. Show: tax computation table, deferred tax calculation (DTA/DTL), journal entries, and disclosure notes. Use Rs throughout (not USD).
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

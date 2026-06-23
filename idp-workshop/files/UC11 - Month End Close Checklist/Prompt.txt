@@ -1,0 +1,12 @@
+USE CASE 11: Month End Close Checklist
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's finance controller. Create a month-end close checklist for September 2025 (Q2 FY2025-26 close). Target close date: 5 October 2025. IDP is a manufacturing company with manufacturing and services revenue, inter-company transactions with group entities, and uses an ERP system. Group tasks by: Day -5 (25 Sep), Day -2 to Month-End (28-30 Sep), and Day +1 to +2 (1-2 Oct). Include owner, status (blank), and target date columns. Add a Q2-specific tasks section for items only applicable at quarter-end. Use a table for each time block.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

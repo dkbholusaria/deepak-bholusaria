@@ -1,0 +1,16 @@
+USE CASE 18: Travel Expense Policy Copilot Word
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Open a new Word document in Microsoft 365. Click the Copilot icon and type:
+
+"Draft a corporate Travel and Expense Reimbursement Policy for IDP Limited, an Indian manufacturing company. Include: purpose, scope, approval hierarchy table (4 employee grades), eligible expenses with limits (air travel, hotel, meals, local transport), non-reimbursable expenses, submission deadline (15 working days), and GST compliance note (invoices in company name and GSTIN). Professional format, approximately 700-900 words. Effective 1 October 2025."
+
+[Copilot will generate a draft. Use follow-up prompts to refine: "Make the hotel limits more conservative" or "Add a section on international travel" or "Convert the approval hierarchy into a table"]
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

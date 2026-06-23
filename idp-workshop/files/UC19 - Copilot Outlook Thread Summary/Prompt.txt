@@ -1,0 +1,30 @@
+USE CASE 19: Copilot Outlook Thread Summary
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+[MICROSOFT COPILOT IN OUTLOOK]
+
+To summarise a thread:
+1. Open the email thread in Outlook 365
+2. Click 'Summarise' (appears above the thread)
+3. Read the auto-generated summary
+4. Follow-up prompts you can use:
+   — "What are the outstanding action items in this thread?"
+   — "Who was responsible for the last action?"
+   — "What was the final decision made?"
+   — "Draft a follow-up email asking [person] for a status update"
+
+To draft a reply with Copilot:
+1. Click Reply on the email
+2. Click 'Draft with Copilot' in the compose window
+3. Type your intent: e.g., "Agree to the vendor's payment extension request. Ask them to confirm the revised invoice date. Professional tone."
+4. Copilot drafts. Refine if needed: "Make it shorter" or "Add a line about our late payment policy"
+
+[NOTE: Requires Microsoft 365 Copilot licence. Available in Outlook web and desktop (M365 channel).]
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

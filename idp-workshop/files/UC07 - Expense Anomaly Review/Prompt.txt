@@ -1,0 +1,12 @@
+USE CASE 07: Expense Anomaly Review
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's internal auditor. I am pasting a list of journal entries from our ERP for Q2 FY2025-26. Review these entries and flag any that show: (1) duplicate entries (same amount, account, user within 7 days), (2) round-number entries above Rs 50,000 with no narration, (3) entries posted on weekends or after 8 PM, (4) entries reversed within 7 days without reason, (5) self-approved entries (same user on debit and credit), (6) narration says 'miscellaneous' or is blank. Output as a table: Entry No | Date | Amount | Posted By | Issue Identified | Risk (High/Medium/Low). Follow with a recommended actions table and methodology note. [PASTE JOURNAL ENTRY LIST HERE]
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

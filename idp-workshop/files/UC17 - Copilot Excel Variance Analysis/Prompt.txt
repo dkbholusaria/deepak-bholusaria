@@ -1,0 +1,20 @@
+USE CASE 17: Copilot Excel Variance Analysis
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Open your Budget vs Actual P&L Excel file in Microsoft 365. Ensure the data is in an Excel Table (select data range, press Ctrl+T). Click the Copilot button in the top ribbon to open the sidebar. Type the following prompts one at a time:
+
+1. "Summarise this P&L. What are the top 5 line items with the largest variance between budget and actual? Show variance amount and %"
+2. "Highlight all cells where actual exceeds budget by more than 10% in red"
+3. "Add a column showing YTD cumulative actual spend"
+4. "Summarise the key findings in 4 bullet points for a CFO review"
+5. "Create a bar chart comparing budget vs actual for the top 10 cost heads"
+
+[NOTE: This is a Copilot-in-Excel task. No text prompt needed — use the Copilot sidebar inside Excel.]
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

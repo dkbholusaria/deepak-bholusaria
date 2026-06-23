@@ -1,0 +1,141 @@
+LIVE DEMO PROMPT — USE CASE 05
+Drafting Reply to GST Show Cause Notice u/s 73 / 74
+====================================================
+
+SCENARIO FOR WORKSHOP:
+Assessee  : M/s Horizon Pharma Distributors (dummy name)
+GSTIN     : 27AABFH4821K1ZP (dummy)
+State     : Maharashtra
+Period    : FY 2021-22
+SCN basis : ITC claimed on purchases from suppliers whose registrations
+            were cancelled retrospectively by the department. Department
+            alleges ITC of Rs.18,42,000/- is inadmissible under Section
+            16(2)(c) since supplier did not deposit tax with government.
+Section   : 73 (no fraud alleged — bona fide dispute)
+Demand    : Tax Rs.18,42,000/- + Interest u/s 50 + Penalty u/s 73(9)
+
+This is one of the most common GST disputes in practice right now.
+Thousands of assessees received SCNs on this exact ground following
+department crackdowns on fake ITC chains. The Supreme Court has given
+a significant ruling on recipient protection (Metal Recyclers case and
+subsequent developments). This makes it an ideal workshop scenario.
+
+====================================================
+PROMPT TO PASTE INTO CLAUDE
+====================================================
+
+You are a GST consultant and Chartered Accountant representing
+M/s Horizon Pharma Distributors, GSTIN: 27AABFH4821K1ZP, a registered
+dealer in Maharashtra engaged in wholesale distribution of pharmaceutical
+products.
+
+The GST department has issued a Show Cause Notice under Section 73 of
+the CGST Act 2017 for FY 2021-22 proposing:
+
+1. Disallowance of Input Tax Credit of Rs.18,42,000/- claimed on
+   purchases from 4 suppliers whose GST registrations were subsequently
+   cancelled retrospectively by the department.
+
+2. The department's contention is that since the suppliers did not deposit
+   the tax collected with the government, the recipient's ITC is
+   inadmissible under Section 16(2)(c) of the CGST Act 2017.
+
+3. Recovery of tax of Rs.18,42,000/- along with interest u/s 50 of the
+   CGST Act and penalty u/s 73(9) of the CGST Act.
+
+FACTS AVAILABLE FOR DEFENCE:
+- The assessee purchased goods from these 4 suppliers in good faith
+  during FY 2021-22 when all 4 suppliers were active registered dealers.
+- All purchases are supported by valid tax invoices issued by the suppliers.
+- The assessee verified supplier GSTIN status on the GST portal at the
+  time of purchase — all were active.
+- Full payment was made to suppliers through banking channels (RTGS/NEFT).
+- The assessee has reflected all these purchases in GSTR-3B and the ITC
+  appears in GSTR-2A/2B for the relevant periods.
+- The retrospective cancellation of supplier registrations was done by
+  the department after the transactions were completed.
+- The assessee had no knowledge of or participation in any fraud by the
+  suppliers.
+- The assessee has complied with all conditions of Section 16(2)(a),
+  (b), and (d) — tax invoice received, goods received, return filed.
+
+YOUR TASK:
+Draft a comprehensive reply to the GST Show Cause Notice covering:
+
+1. Facts of the case and the assessee's position.
+
+2. Legal argument on Section 16(2)(c):
+   - Argue that the liability to deposit tax lies with the supplier,
+     not the recipient.
+   - A bona fide recipient who has verified supplier registration, holds
+     valid invoices, has received goods, and has paid through banking
+     channels cannot be penalised for supplier's default.
+   - Cite the Supreme Court's position on recipient protection in ITC
+     matters.
+   - Cite relevant High Court judgments and CBIC circulars supporting
+     the recipient's right to ITC where transactions are genuine.
+
+3. Argument on retrospective cancellation:
+   - The supplier's registration was valid on the date of transaction.
+   - Retrospective cancellation cannot invalidate ITC already legitimately
+     availed on valid invoices during the period the supplier was active.
+   - Cite relevant judicial precedents on this specific issue.
+
+4. Constitutional argument (briefly):
+   - Denial of ITC to a bona fide recipient for supplier's default
+     violates principles of natural justice and is arbitrary.
+
+5. Argument against penalty:
+   - Section 73 applies where there is no fraud or wilful misstatement.
+   - There is no allegation of fraud in the SCN.
+   - Penalty u/s 73(9) is not automatic — it requires deliberate default.
+
+6. Prayer:
+   - Drop the SCN in its entirety.
+   - Alternatively, issue directions to recover from the defaulting
+     suppliers, not the recipient.
+   - Waive interest and penalty.
+
+Cite minimum 4 judicial precedents including High Court or Supreme Court
+decisions. Reference applicable CGST Act sections and CBIC circulars.
+Use formal legal language appropriate for GST adjudication proceedings.
+
+====================================================
+FOLLOW-UP PROMPT — APPEAL BEFORE GST APPELLATE AUTHORITY
+(If adjudicating authority confirms the demand)
+====================================================
+
+The adjudicating authority has passed an order confirming the demand of
+Rs.18,42,000/- tax, interest, and penalty.
+
+Draft the Appeal in Form GST APL-01 before the Appellate Authority
+under Section 107 of the CGST Act 2017. Include:
+
+1. Grounds of appeal — numbered, one issue per ground.
+2. Statement of facts.
+3. Legal grounds challenging Section 16(2)(c) application.
+4. Challenge to penalty.
+5. Pre-deposit calculation (10% of disputed tax as per Section 107(6)).
+6. Prayer clause.
+7. Cite minimum 3 appellate/court precedents.
+
+====================================================
+FACILITATOR NOTES
+====================================================
+
+KEY POINTS TO HIGHLIGHT:
+1. This SCN scenario affects thousands of assessees right now —
+   the audience will have clients with exactly this problem.
+2. Claude structures the reply ground-by-ground without being told to.
+3. The Section 16(2)(c) argument is legally nuanced — Claude handles
+   it correctly citing recipient protection principles.
+4. The pre-deposit calculation in the appeal (10% of Rs.18,42,000 =
+   Rs.1,84,200) appears automatically.
+5. CBIC circular references appear without prompting.
+
+CRITICAL CAUTION TO STATE:
+The GST legal landscape on Section 16(2)(c) and retrospective
+cancellation is evolving rapidly. Judgments from 2023-2025 have
+significantly changed the position. The CA must verify that cited
+judgments are current, have not been stayed or overruled, and apply
+to the specific state jurisdiction of the client.

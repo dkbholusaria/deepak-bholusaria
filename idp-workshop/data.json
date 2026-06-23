@@ -1,0 +1,248 @@
+{
+  "topic": "IDP Workshop",
+  "zip": "idp-workshop-usecases.zip",
+  "usecases": [
+    {
+      "id": "uc01",
+      "badge": "UC01",
+      "title": "GST Notice Reply",
+      "category": "Tax and GST",
+      "description": "Draft a formal reply to a GST scrutiny notice for ITC mismatch between GSTR-2A and books, including an extension request and document list.",
+      "deliverable": "GST notice reply",
+      "folder": "UC01 - GST Notice Reply",
+      "prompt": "Prompt.txt",
+      "files": ["GST_Notice_Reply.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc02",
+      "badge": "UC02",
+      "title": "Advance Tax Note",
+      "category": "Tax and GST",
+      "description": "Prepare a Q3 advance tax computation note for CFO approval with calculation table, payment instructions, and Section 234C consequences.",
+      "deliverable": "Internal tax memo",
+      "folder": "UC02 - Advance Tax Note",
+      "prompt": "Prompt.txt",
+      "files": ["Advance_Tax_Q3_Note.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc03",
+      "badge": "UC03",
+      "title": "TDS Compliance Checklist",
+      "category": "Tax and GST",
+      "description": "Create a quarter-end TDS compliance checklist grouped by timing, owner, status, and common errors to avoid.",
+      "deliverable": "Compliance checklist",
+      "folder": "UC03 - TDS Compliance Checklist",
+      "prompt": "Prompt.txt",
+      "files": ["Prompt.txt", "TDS_Q3_Compliance_Checklist.docx"]
+    },
+    {
+      "id": "uc04a",
+      "badge": "UC04A",
+      "title": "Income Tax Provision Note",
+      "category": "Finance Close",
+      "description": "Prepare a Q2 income tax provision note with tax computation, deferred tax, journal entries, and management disclosure notes.",
+      "deliverable": "Provision note",
+      "folder": "UC04A - Income Tax Provision Note",
+      "prompt": "Prompt.txt",
+      "files": ["Income_Tax_Provision_Q2.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc04b",
+      "badge": "UC04B",
+      "title": "IT SCN Reply and Appeal Grounds",
+      "category": "Tax and GST",
+      "description": "Live demo for drafting a reply to an Income Tax show cause notice under Section 144 and appeal grounds using a detailed dummy scenario.",
+      "deliverable": "SCN reply and appeal grounds",
+      "folder": "UC04B - IT SCN Reply and Appeal Grounds",
+      "prompt": "UC04_live_demo_prompt.txt",
+      "files": ["UC04_IT_SCN_Reply_and_Appeal.docx", "UC04_SCN_dummy_scenario.md", "UC04_live_demo_prompt.txt"]
+    },
+    {
+      "id": "uc04c",
+      "badge": "UC04C",
+      "title": "GST SCN Reply u/s 73-74",
+      "category": "Tax and GST",
+      "description": "Live demo for drafting a GST show cause notice reply involving ITC denial where supplier registration was cancelled retrospectively.",
+      "deliverable": "GST SCN reply",
+      "folder": "UC04C - GST SCN Reply u-s 73-74",
+      "prompt": "UC05_live_demo_prompt.txt",
+      "files": ["UC05_GST_SCN_Reply.docx", "UC05_live_demo_prompt.txt"]
+    },
+    {
+      "id": "uc05",
+      "badge": "UC05",
+      "title": "Internal Audit Purchase Checklist",
+      "category": "Audit and Controls",
+      "description": "Create a risk-based internal audit checklist for the procure-to-pay cycle, including risks, control tests, procedures, and sampling approach.",
+      "deliverable": "Audit checklist",
+      "folder": "UC05 - Internal Audit Purchase Checklist",
+      "prompt": "Prompt.txt",
+      "files": ["Internal_Audit_Purchase_Checklist.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc06",
+      "badge": "UC06",
+      "title": "Management Representation Letter",
+      "category": "Audit and Controls",
+      "description": "Draft a statutory audit management representation letter aligned with SA 580 and Indian audit practice.",
+      "deliverable": "MRL draft",
+      "folder": "UC06 - Management Representation Letter",
+      "prompt": "Prompt.txt",
+      "files": ["Management_Representation_Letter_FY25.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc07",
+      "badge": "UC07",
+      "title": "Expense Anomaly Review",
+      "category": "Audit and Controls",
+      "description": "Review journal entries for duplicate postings, round-number entries, weekend or late-night postings, reversals, and self-approvals.",
+      "deliverable": "Anomaly review table",
+      "folder": "UC07 - Expense Anomaly Review",
+      "prompt": "Prompt.txt",
+      "files": ["Expense_Anomaly_Review_Q2.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc08",
+      "badge": "UC08",
+      "title": "Payroll Audit Finding",
+      "category": "Audit and Controls",
+      "description": "Write a professional internal audit observation for payroll changes processed without dual authorisation.",
+      "deliverable": "Audit observation",
+      "folder": "UC08 - Payroll Audit Finding",
+      "prompt": "Prompt.txt",
+      "files": ["Payroll_Audit_Finding_IA-PAY-003.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc09",
+      "badge": "UC09",
+      "title": "P&L Commentary Board Report",
+      "category": "Reporting",
+      "description": "Produce Q2 P&L commentary for a board pack, covering revenue, margins, EBITDA, PAT, drivers, and management actions.",
+      "deliverable": "Board commentary",
+      "folder": "UC09 - PnL Commentary Board Report",
+      "prompt": "Prompt.txt",
+      "files": ["PnL_Commentary_Q2_FY25-26.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc10",
+      "badge": "UC10",
+      "title": "Vendor Advance Reconciliation",
+      "category": "Finance Close",
+      "description": "Prepare a vendor advance reconciliation statement, likely causes table, journal entries, and next steps in Indian accounting context.",
+      "deliverable": "Reconciliation statement",
+      "folder": "UC10 - Vendor Advance Reconciliation",
+      "prompt": "Prompt.txt",
+      "files": ["Prompt.txt", "Vendor Reconciliation Statement.docx", "Vendor_Advance_Reconciliation.docx"]
+    },
+    {
+      "id": "uc11",
+      "badge": "UC11",
+      "title": "Month-End Close Checklist",
+      "category": "Finance Close",
+      "description": "Build a September 2025 month-end close checklist with time-blocked tasks, owners, target dates, and quarter-end items.",
+      "deliverable": "Close checklist",
+      "folder": "UC11 - Month End Close Checklist",
+      "prompt": "Prompt.txt",
+      "files": ["Month_End_Close_Sep_2025.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc12",
+      "badge": "UC12",
+      "title": "MSME Creditor Ageing Report",
+      "category": "Finance Close",
+      "description": "Prepare creditor ageing with MSME compliance review, overdue alerts, interest estimate, and Directors' Report disclosure.",
+      "deliverable": "Ageing report",
+      "folder": "UC12 - MSME Creditor Ageing Report",
+      "prompt": "Prompt.txt",
+      "files": ["MSME_Creditor_Ageing_Sep_2025.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc13",
+      "badge": "UC13",
+      "title": "Regulatory Update Note",
+      "category": "Corporate Compliance",
+      "description": "Summarise an MCA circular into an executive summary, action table, and board note in plain language.",
+      "deliverable": "Regulatory note",
+      "folder": "UC13 - Regulatory Update Note",
+      "prompt": "Prompt.txt",
+      "files": ["MCA_CSR_Circular_Update_Sep2025.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc14",
+      "badge": "UC14",
+      "title": "Related Party Disclosure",
+      "category": "Corporate Compliance",
+      "description": "Prepare related party transaction disclosures for an annual report under Companies Act and Ind AS 24 requirements.",
+      "deliverable": "Annual report disclosure",
+      "folder": "UC14 - Related Party Disclosure",
+      "prompt": "Prompt.txt",
+      "files": ["Prompt.txt", "RPT_Disclosure_FY25_Annual_Report.docx"]
+    },
+    {
+      "id": "uc15",
+      "badge": "UC15",
+      "title": "Board Resolution - Auditor Appointment",
+      "category": "Corporate Compliance",
+      "description": "Draft a board resolution for statutory auditor appointment with recitals, resolved clauses, authorisation, and signature block.",
+      "deliverable": "Board resolution",
+      "folder": "UC15 - Board Resolution Auditor Appointment",
+      "prompt": "Prompt.txt",
+      "files": ["Board_Resolution_Auditor_Appointment.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc16",
+      "badge": "UC16",
+      "title": "Compliance Calendar FY26",
+      "category": "Corporate Compliance",
+      "description": "Create a month-by-month FY2025-26 compliance calendar for TDS, GST, advance tax, ROC, PF, ESI, and Form 16.",
+      "deliverable": "Compliance calendar",
+      "folder": "UC16 - Compliance Calendar FY26",
+      "prompt": "Prompt.txt",
+      "files": ["Compliance_Calendar_FY2025-26.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc17",
+      "badge": "UC17",
+      "title": "Copilot Excel Variance Analysis",
+      "category": "Microsoft 365 Copilot",
+      "description": "Use Copilot in Excel to summarise budget vs actual variance, highlight exceptions, add YTD analysis, and create review outputs.",
+      "deliverable": "Excel variance workflow",
+      "folder": "UC17 - Copilot Excel Variance Analysis",
+      "prompt": "Prompt.txt",
+      "files": ["Copilot_Excel_Variance_Analysis_Artifact.xlsx", "Copilot_Excel_Variance_Analysis_Guide.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc18",
+      "badge": "UC18",
+      "title": "Travel Expense Policy - Copilot Word",
+      "category": "Microsoft 365 Copilot",
+      "description": "Use Copilot in Word to draft and refine a corporate travel and expense reimbursement policy for an Indian manufacturing company.",
+      "deliverable": "Policy draft",
+      "folder": "UC18 - Travel Expense Policy Copilot Word",
+      "prompt": "Prompt.txt",
+      "files": ["Prompt.txt", "Travel_Expense_Policy_v2.1.docx"]
+    },
+    {
+      "id": "uc19",
+      "badge": "UC19",
+      "title": "Copilot Outlook Thread Summary",
+      "category": "Microsoft 365 Copilot",
+      "description": "Use Copilot in Outlook to summarise email threads, identify action items, and draft professional follow-up replies.",
+      "deliverable": "Outlook workflow guide",
+      "folder": "UC19 - Copilot Outlook Thread Summary",
+      "prompt": "Prompt.txt",
+      "files": ["Copilot_Outlook_Email_Summary_Guide.docx", "Prompt.txt"]
+    },
+    {
+      "id": "uc20",
+      "badge": "UC20",
+      "title": "Copilot PowerPoint from MIS",
+      "category": "Microsoft 365 Copilot",
+      "description": "Use Copilot in PowerPoint to convert an MIS report into a board presentation and refine slides with follow-up prompts.",
+      "deliverable": "PowerPoint workflow guide",
+      "folder": "UC20 - Copilot PowerPoint from MIS",
+      "prompt": "Prompt.txt",
+      "files": ["Copilot_PowerPoint_MIS_to_Deck_Guide.docx", "Prompt.txt", "Sample_MIS_Report_For_Copilot.docx"]
+    }
+  ]
+}

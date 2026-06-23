@@ -1,0 +1,12 @@
+USE CASE 02: Advance Tax Note
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's tax team. Prepare an internal advance tax note for Q3 FY2025-26 (due 15 December 2025) for CFO approval. Use the following financial data: Estimated PBT for the year Rs 142.5 lakhs, disallowable expenses Rs 6.8 lakhs, deductions Rs 4.2 lakhs, advance tax already paid (Q1+Q2) Rs 20.5 lakhs. Applicable rate 25.17%. Show the full computation table, payment instructions (Challan ITNS 280 via IT portal), consequences of non-payment (Section 234C), and a clear action required statement. Professional internal memo format. Use Rs lakhs throughout.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

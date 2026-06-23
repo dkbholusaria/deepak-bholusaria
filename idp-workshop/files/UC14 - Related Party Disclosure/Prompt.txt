@@ -1,0 +1,12 @@
+USE CASE 14: Related Party Disclosure
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's company secretary and finance team. Prepare related party transaction (RPT) disclosures for our FY2024-25 annual report as required under Schedule V, Part A of the Companies Act 2013 and Ind AS 24. Our related parties include: (1) IDP Holdings Pvt Ltd — holding company — raw material purchase Rs 4.2 Cr + loan given Rs 1 Cr at 9% p.a., (2) IDP Infra Services Ltd — associate — rent paid Rs 18 lakhs, (3) Mr. Rajesh Iyer — MD — remuneration Rs 72 lakhs, (4) Mrs. Sunita Iyer — Director (KMP relative) — sitting fees Rs 4 lakhs. Include: list of related parties with relationship, transaction table with arm's length confirmation, outstanding balance table, and explanatory notes. Format as per annual report standards.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

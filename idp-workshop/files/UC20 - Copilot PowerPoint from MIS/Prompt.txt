@@ -1,0 +1,25 @@
+USE CASE 20: Copilot PowerPoint from MIS
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+[MICROSOFT COPILOT IN POWERPOINT]
+
+1. Save your MIS report as a Word file (.docx) to OneDrive
+2. Open a new blank PowerPoint in Microsoft 365
+3. Click 'Copilot' in the Home ribbon
+4. Type: "Create a presentation from [OneDrive link to your MIS Word file]"
+   OR: "Create a 10-slide board presentation summarising our Q2 performance. Include: executive summary, revenue analysis, cost analysis, EBITDA bridge, working capital, risks, and Q3 outlook. Professional format."
+5. Copilot generates the deck. Then refine slide by slide:
+   — "Rewrite slide 2 with 3 bullet points focused only on key variances"
+   — "Add speaker notes to slide 4 explaining the raw material cost increase"
+   — "Suggest a chart type for the revenue trend on slide 3"
+6. Apply your company's PowerPoint template last (Design tab)
+
+[Requires Microsoft 365 Copilot licence. File must be in OneDrive/SharePoint for file-based generation.]
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format

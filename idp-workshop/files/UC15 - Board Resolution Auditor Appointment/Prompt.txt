@@ -1,0 +1,12 @@
+USE CASE 15: Board Resolution Auditor Appointment
+============================================================
+
+PASTE THIS PROMPT INTO CHATGPT OR CLAUDE:
+
+Act as IDP Limited's company secretary. Draft a board resolution for appointment of M/s Gupta & Co., Chartered Accountants (Firm Reg. No. 009876N) as statutory auditors for 5 years from the conclusion of the 15th AGM (FY2024-25) to the 20th AGM (FY2029-30), subject to shareholder ratification at each AGM. The outgoing auditors M/s Sharma & Associates completed their 5-year term. The Audit Committee has recommended this appointment in its meeting on 15 September 2025. Format as: recital (background), resolved clauses (appointment, authorisation to file ADT-1, certified copy instruction), and signature block. Use proper legal language as per Companies Act 2013, Sections 139 and 142.
+
+────────────────────────────────────────────────────────────
+TIPS:
+• Replace [bracketed items] with your actual data
+• Paste your document/data after the prompt
+• Iterate: ask AI to refine tone, length, or format
