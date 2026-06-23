@@ -165,6 +165,15 @@
       color: var(--gold); font-weight: 600;
     }
     .contact-pill.vcf-pill:hover { background: rgba(240,165,0,0.2); color: #fbbf24; }
+    .hero-book-cta {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      color: #0f1f3d; background: var(--gold);
+      text-decoration: none; font-size: 0.82rem; font-weight: 800;
+      padding: 0.62rem 1rem; border-radius: 8px;
+      box-shadow: 0 10px 28px rgba(240,165,0,0.25);
+      transition: transform 0.15s, background 0.15s;
+    }
+    .hero-book-cta:hover { background: var(--gold2); transform: translateY(-1px); }
 
     /* ── MAIN ── */
     main { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
@@ -194,6 +203,48 @@
     .icon-teal   { background: #f0fdfa; }
     .card-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase; color: var(--gray400); }
     .card-body { padding: 1.25rem 1.4rem; }
+
+    /* ── BOOK ── */
+    .book-feature {
+      display: grid; grid-template-columns: 170px 1fr; gap: 1.25rem; align-items: start;
+    }
+    .book-cover-link { display: block; text-decoration: none; }
+    .book-cover {
+      width: 100%; aspect-ratio: 1191 / 1684; object-fit: cover;
+      border-radius: 8px; border: 1px solid rgba(15,31,61,0.18);
+      box-shadow: 0 18px 32px rgba(15,31,61,0.22);
+      background: var(--navy);
+    }
+    .book-kicker {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em;
+      text-transform: uppercase; color: #991b1b; background: #fef2f2;
+      border: 1px solid #fecaca; border-radius: 999px;
+      padding: 0.25rem 0.65rem; margin-bottom: 0.7rem;
+    }
+    .book-title {
+      font-size: 1.45rem; line-height: 1.15; color: var(--gray800);
+      font-weight: 900; margin-bottom: 0.45rem;
+    }
+    .book-subtitle { font-size: 0.92rem; color: var(--blue2); font-weight: 700; margin-bottom: 0.7rem; }
+    .book-desc { font-size: 0.9rem; color: var(--gray700); line-height: 1.72; margin-bottom: 0.95rem; }
+    .book-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1rem; }
+    .book-meta span {
+      font-size: 0.72rem; color: var(--gray600); background: var(--gray50);
+      border: 1px solid var(--gray200); border-radius: 999px;
+      padding: 0.28rem 0.65rem;
+    }
+    .book-actions { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+    .book-button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem;
+      min-height: 38px; padding: 0.55rem 0.85rem; border-radius: 8px;
+      font-size: 0.78rem; font-weight: 800; text-decoration: none;
+      border: 1px solid var(--gray200);
+    }
+    .book-button.primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .book-button.primary:hover { background: var(--blue2); border-color: var(--blue2); }
+    .book-button.secondary { color: var(--gray800); background: #fff; }
+    .book-button.secondary:hover { border-color: #bfdbfe; background: #eff6ff; }
 
     /* ── ABOUT TEXT ── */
     .about-text p { font-size: 0.93rem; color: var(--gray700); line-height: 1.78; margin-bottom: 0.9rem; }
@@ -298,6 +349,10 @@
       .hero-inner { flex-direction: column; align-items: center; text-align: center; }
       .stat-pills { justify-content: center; }
       .record-grid { grid-template-columns: 1fr 1fr; }
+      .book-feature { grid-template-columns: 1fr; }
+      .book-cover-link { max-width: 220px; margin: 0 auto; }
+      .book-title { font-size: 1.25rem; }
+      .book-actions { justify-content: center; }
     }
   </style>
 </head>
@@ -332,6 +387,7 @@
           <svg width="18" height="18" viewBox="0 0 20 20" fill="#f87171"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
         </a>
       </div>
+      <a class="topbar-link" href="#book">📘 <span>Book</span></a>
       <a class="topbar-link cta" href="DeepakBhholusaria.vcf" download>📇 Save Contact</a>
     </div>
   </div>
@@ -381,6 +437,7 @@
         and management consultancy. ICAI-certified AI Faculty at Level 1 &amp; Level 2, and India's leading voice
         on Data Protection &amp; Privacy (ICAI–DPCAC). Practice depth. AI command.
       </p>
+      <a class="hero-book-cta" href="#book">📘 New Book: The Art of AI Prompting</a>
 
       <!-- Contact icon row in hero -->
       <div style="display:flex;flex-wrap:wrap;gap:0.75rem 1.5rem;margin-top:1.5rem;justify-content:center;">
@@ -457,6 +514,40 @@
             against the familiar framework of 1961, identifying what has changed and what has not, and
             helping CAs prepare their practice and their clients for the shift.
           </p>
+        </div>
+      </div>
+
+      <!-- Published Book -->
+      <div class="card" id="book">
+        <div class="card-header">
+          <div class="card-icon icon-red">📘</div>
+          <span class="card-label">Published Book</span>
+        </div>
+        <div class="card-body">
+          <div class="book-feature">
+            <a class="book-cover-link" href="Book/TheArtOfAIPrompting_FirstEdition_2026.pdf" target="_blank" rel="noopener">
+              <img class="book-cover" src="Book/TheArtOfAIPrompting_FirstEdition_2026_cover.png" alt="Cover of The Art of AI Prompting">
+            </a>
+            <div>
+              <div class="book-kicker">Released June 23, 2026</div>
+              <h2 class="book-title">The Art of AI Prompting</h2>
+              <div class="book-subtitle">A practical guide for finance, accounting and tax professionals</div>
+              <p class="book-desc">
+                A first-edition guide for professionals who want to use AI with clearer instructions,
+                stronger context, and better review habits across research, drafting, compliance,
+                advisory, and day-to-day professional workflows.
+              </p>
+              <div class="book-meta">
+                <span>First Edition | 2026</span>
+                <span>78-page PDF</span>
+                <span>Finance, Accounting &amp; Tax</span>
+              </div>
+              <div class="book-actions">
+                <a class="book-button primary" href="Book/TheArtOfAIPrompting_FirstEdition_2026.pdf" target="_blank" rel="noopener">Open PDF</a>
+                <a class="book-button secondary" href="Book/TheArtOfAIPrompting_FirstEdition_2026.pdf" download>Download Book</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
