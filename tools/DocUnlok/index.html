@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DocUnlok — Strip PDF Password Protection</title>
+<meta name="description" content="DocUnlok is a free Windows desktop utility that removes password protection from PDF files, in place. By CA Deepak Bhholusaria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  :root {
+    --bg:          #F7F8FB;
+    --panel:       #FFFFFF;
+    --panel-alt:   #EEF1F7;
+    --input:       #FFFFFF;
+    --border:      #DBE1EC;
+    --text:        #101828;
+    --text-muted:  #5B6478;
+    --accent:      #2554D6;
+    --accent-hi:   #1B3FAD;
+    --accent-ink:  #FFFFFF;
+    --code-bg:     #EEF1F7;
+    --shadow:      0 1px 2px rgba(16,24,40,0.04), 0 1px 3px rgba(16,24,40,0.06);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:          #0A1628;
+      --panel:       #0D1F3C;
+      --panel-alt:   #0F2040;
+      --input:       #0F2040;
+      --border:      #1E3A5F;
+      --text:        #E7ECF5;
+      --text-muted:  #93A0B8;
+      --accent:      #4C7EFF;
+      --accent-hi:   #6C93FF;
+      --accent-ink:  #061024;
+      --code-bg:     #061024;
+      --shadow:      0 1px 2px rgba(0,0,0,0.3), 0 4px 12px rgba(0,0,0,0.25);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  h1, h2, h3 { font-family: 'Sora', 'Segoe UI', Arial, sans-serif; text-wrap: balance; margin: 0; }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  /* ── Hero ── */
+  header.hero {
+    padding: 72px 0 44px;
+  }
+  .hero-inner { text-align: center; max-width: 640px; margin: 0 auto; }
+
+  .badge-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .lockmark {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 20px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(160deg, var(--accent), var(--accent-hi));
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+  }
+  .lockmark svg { width: 34px; height: 34px; }
+
+  h1.title {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+  .tagline {
+    color: var(--text-muted);
+    font-size: 17px;
+    margin: 0 0 32px;
+  }
+
+  .dl-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .dl-btn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--accent);
+    color: var(--accent-ink);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 13px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    transition: background 0.15s, transform 0.1s;
+    box-shadow: var(--shadow);
+  }
+  .dl-btn:hover { background: var(--accent-hi); text-decoration: none; transform: translateY(-1px); }
+  .dl-btn small { font-size: 11.5px; font-weight: 400; opacity: 0.85; margin-top: 2px; }
+  .dl-btn.secondary {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    box-shadow: none;
+  }
+  .dl-btn.secondary:hover { background: var(--panel-alt); transform: none; }
+
+  /* ── Sections ── */
+  main { padding-bottom: 56px; }
+
+  .eyebrow {
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin: 0 0 16px;
+  }
+
+  section + section { margin-top: 48px; }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .card {
+    background: var(--panel);
+    padding: 20px 22px;
+  }
+  .card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; font-family: 'IBM Plex Sans', sans-serif; }
+  .card p { margin: 0; font-size: 13.5px; color: var(--text-muted); }
+
+  .steps {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 6px 28px;
+  }
+  .steps ol { margin: 0; padding-left: 20px; }
+  .steps li {
+    padding: 16px 0;
+    font-size: 14.5px;
+  }
+  .steps li + li { border-top: 1px solid var(--border); }
+  .steps b { font-weight: 600; }
+
+  code {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 2px 7px;
+    font-family: 'IBM Plex Mono', 'Cascadia Code', monospace;
+    font-size: 12.5px;
+    color: var(--accent);
+  }
+
+  footer {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 28px 24px 56px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  footer .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  footer .links a { color: var(--text-muted); }
+  footer .links a:hover { color: var(--text); }
+
+  @media (max-width: 520px) {
+    h1.title { font-size: 32px; }
+    .dl-row { flex-direction: column; align-items: stretch; }
+    .dl-btn { align-items: center; text-align: center; }
+    .steps { padding: 6px 18px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="lockmark">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M7 10.5V8a5 5 0 0 1 9.5-2.2" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+        <rect x="5" y="10.5" width="14" height="10" rx="2.4" fill="#fff"/>
+        <circle cx="12" cy="15" r="1.6" fill="#4C7EFF"/>
+        <rect x="11.3" y="15.6" width="1.4" height="2.6" rx="0.7" fill="#4C7EFF"/>
+      </svg>
+    </div>
+
+    <div class="badge-row">
+      <span class="pill">v1.0.0</span>
+      <span class="pill">Windows</span>
+      <span class="pill">Free &amp; local</span>
+    </div>
+
+    <h1 class="title">DocUnlok</h1>
+    <p class="tagline">Strip password protection from PDF files — in place, on your own machine.</p>
+
+    <div class="dl-row">
+      <a class="dl-btn" href="https://github.com/dkbholusaria/DocUnlok/releases/latest/download/DocUnlok.exe">
+        Download for Windows
+        <small>Standalone .exe &middot; no install, no account</small>
+      </a>
+      <a class="dl-btn secondary" href="https://github.com/dkbholusaria/DocUnlok/releases">
+        Release notes
+        <small>Changelog &amp; older versions</small>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <p class="eyebrow">What it does</p>
+    <div class="features">
+      <div class="card">
+        <h3>Multi-file select</h3>
+        <p>Pick any number of PDFs at once, from any folder or drive.</p>
+      </div>
+      <div class="card">
+        <h3>In-place decrypt</h3>
+        <p>Removes owner + user password, same filename and folder.</p>
+      </div>
+      <div class="card">
+        <h3>Safe by design</h3>
+        <p>Decrypts to a temp file, verifies it opens unencrypted, only then replaces the original.</p>
+      </div>
+      <div class="card">
+        <h3>Batch-friendly</h3>
+        <p>Wrong password or already-unencrypted files are reported per file — the batch keeps going.</p>
+      </div>
+      <div class="card">
+        <h3>Responsive UI</h3>
+        <p>Processing runs on a background thread, so the app never freezes.</p>
+      </div>
+      <div class="card">
+        <h3>No upload, ever</h3>
+        <p>100% local. Your PDFs never leave your computer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">How to use</p>
+    <div class="steps">
+      <ol>
+        <li><b>Download and run</b> <code>DocUnlok.exe</code> — no installation needed.</li>
+        <li><b>Select Files…</b> to choose one or more password-protected PDFs, or <b>Add Files…</b> to bring in more from other folders.</li>
+        <li><b>Type the password</b> shared by those PDFs.</li>
+        <li><b>Remove Password</b> — each file's status updates live in the table: decrypted, already unencrypted, or failed with a reason.</li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>© 2026 CA Deepak Bhholusaria. All rights reserved.</div>
+  <div class="links">
+    <a href="https://github.com/dkbholusaria/DocUnlok" target="_blank">GitHub</a>
+    <a href="mailto:deepak@ailearrning.guru">Email</a>
+    <a href="https://www.linkedin.com/in/bhholusaria/" target="_blank">LinkedIn</a>
+    <a href="https://deepak.bholusaria.com" target="_blank">deepak.bholusaria.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
